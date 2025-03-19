@@ -1,0 +1,71 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+body {
+    /* height: 100vh; */
+    background: linear-gradient(45deg, rgb(236, 176, 201),rgb(137, 241, 142),rgb(228, 228, 104),rgb(225, 136, 151),rgb(154, 231, 221),rgb(153, 232, 153),rgb(230, 199, 142));
+    background-size: 400% 400%;
+    animation: anmt 10s infinite linear;
+    position: relative ;
+}
+
+@keyframes anmt {
+    0% {background-position: 0% 0%;}
+    15%{background-position: 0% 25%;}
+    25%{background-position: 0% 50%;}
+    35%{background-position: 0% 75%;}
+
+    50%{background-position: 0% 100%;}
+
+    65%{background-position: 0% 0%;}
+    75%{background-position: 0% 25%;}
+    85%{background-position: 0% 50%;}
+    100%{background-position:0% 75%;}
+}
+
+header{
+    background-color: rgb(47, 46, 46);
+    color: white;
+    margin: -10px;
+    margin-bottom:0px;
+    text-decoration:2px black dashed;
+    text-align: center;
+    padding-top: 5px;
+    height: 80px;
+    
+}
+nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -5px;
+}
+ 
+.head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    
+    color: blue;
+    font-size: larger;
+    margin-right: 10px;
+     
+}
+footer{
+    margin-bottom: 0px;
+    margin: 15px -8px;
+    background-color: rgb(47, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
